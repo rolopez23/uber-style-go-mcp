@@ -22,7 +22,7 @@ func main() {
 	mcp.AddTool(server, tools.PingTool, tools.Ping)
 
 	// Run server over stdio transport
-	if err := server.Run(context.Background(), &mcp.StdioTransport{}); err != nil {
+	if err := server.Run(context.Background(), mcp.NewStdioTransport()); err != nil {
 		log.Fatal(err)
 	}
 }

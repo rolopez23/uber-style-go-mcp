@@ -28,3 +28,10 @@ learnings/<feature>.md             # Learnings and insights
 ```
 
 See the `Claude.md` file in each directory for detailed instructions.
+
+## Issue Tracking
+
+Use [Beads](https://beads.dev) for issue tracking.
+
+- Top-level plans (`plan/<feature>.md`) link to a Beads **epic**
+- Agent plans (`plan/<feature>/<sub-feature>.md`) link to a Beads **issue**

@@ -6,6 +6,7 @@ Plan files define implementation strategy with orchestration and agent coordinat
 
 The main plan focuses on orchestration and coordination:
 
+- **Beads Epic**: Link to the corresponding epic in Beads
 - **Overview**: Summary of the implementation approach
 - **Orchestration**: How work is divided and sequenced across agents
 - **Agent Plan Links**: References to individual agent plans in `<feature>/`
@@ -17,6 +18,7 @@ The main plan focuses on orchestration and coordination:
 
 Each agent plan is scoped for a single agent to implement:
 
+- **Beads Issue**: Link to the corresponding issue in Beads
 - **Objective**: Clear, focused goal for this agent
 - **Context**: What this agent needs to know from the top-level plan
 - **Implementation Steps**: Concrete tasks to complete

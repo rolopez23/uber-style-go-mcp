@@ -1,30 +1,90 @@
 # Learnings Files
 
-Learnings files capture insights and patterns discovered during implementation.
+This is a **learning repository** for Go and MCP. Learnings use Bloom's Taxonomy to structure knowledge and practice.
 
-**Project Context:** MCP server for Uber Go Style Guide validation - capture Go patterns, MCP learnings, and style guide insights.
+**Learning Focus:**
+- Go programming language
+- MCP (Model Context Protocol)
+- Go testing patterns
 
-## Structure
+## Directory Structure
 
-Capture during and after implementation:
+```
+learnings/
+├── Claude.md                    # This file
+├── mcp-server-bootstrap.md      # Feature-specific learnings
+├── go/                          # Go language learnings
+│   ├── Remember.md              # Level 1: Recall facts
+│   ├── Understand.md            # Level 2: Explain concepts
+│   ├── Apply.md                 # Level 3: Exercises
+│   └── exercises/               # Scaffolded code + failing tests
+├── mcp/                         # MCP protocol learnings
+│   ├── Remember.md
+│   ├── Understand.md
+│   ├── Apply.md
+│   └── exercises/
+└── go-testing/                  # Go testing learnings
+    ├── Remember.md
+    ├── Understand.md
+    ├── Apply.md
+    └── exercises/
+```
 
-- **What Worked**: Successful patterns and approaches
-- **What Didn't**: Failed attempts and why
-- **Insights**: Non-obvious discoveries
-- **Future Recommendations**: Guidance for similar work
+## Bloom's Taxonomy Levels
 
-## Human Understanding Section
+| Level | Name | Description | File |
+|-------|------|-------------|------|
+| 1 | Remember | Recall facts and basic concepts | `Remember.md` |
+| 2 | Understand | Explain ideas or concepts | `Understand.md` |
+| 3 | Apply | Use information in new situations | `Apply.md` |
 
-Each learnings file should include recommendations for the human in the loop:
+## Schedule
 
-- **Code Walkthrough**: Key files and functions to review for deep understanding
-- **Architecture Decisions**: Why certain approaches were chosen over alternatives
-- **Reading Order**: Suggested sequence for reviewing the code
-- **Concepts to Study**: Background knowledge that helps comprehension
-- **Questions to Ask**: Prompts for the human to verify their understanding
+Import `exercises.ics` into your calendar for a daily exercise schedule (11 days, including weekends).
 
-## Naming
+| Days 1-4 | Go fundamentals |
+|----------|-----------------|
+| Days 5-7 | MCP protocol |
+| Days 8-11 | Go testing |
 
-Files are named `<feature>.md` and correspond to:
-- `spec/<feature>.md` (specification)
-- `plan/<feature>.md` (top-level plan)
+## How to Use
+
+### 1. Remember (Level 1)
+Read the questions and try to answer from memory. Check answers when done.
+
+### 2. Understand (Level 2)
+Read questions and write your explanation. Compare with provided answers.
+
+### 3. Apply (Level 3)
+Complete the coding exercises:
+
+```bash
+# Run all exercises for a topic
+go test ./learnings/go/exercises/... -v
+go test ./learnings/mcp/exercises/... -v
+go test ./learnings/go-testing/exercises/... -v
+```
+
+## Exercise Scaffolding
+
+Each exercise follows a test-driven pattern:
+
+**Structure:**
+- `.go` file - Scaffolded code with TODOs and hints
+- `_test.go` file - Failing tests that define expected behavior
+
+**Workflow:**
+1. Read the TODO comments in the `.go` file
+2. Run the test to see it fail
+3. Implement the code
+4. Run the test until it passes
+
+**Run comments:** Each test file has a `// Run:` comment at the top showing the exact command
+
+## Adding New Topics
+
+Create a new directory with:
+1. `Remember.md` - 3-5 factual recall questions
+2. `Understand.md` - 3-5 conceptual questions
+3. `Apply.md` - Exercise descriptions
+4. `exercises/` - Scaffolded code + tests

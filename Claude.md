@@ -53,3 +53,9 @@ Use [Beads](https://beads.dev) for issue tracking.
 - **Done**: The agent (Claude) has validated the work through automated tests or manual execution
 - **Done Done**: The human has reviewed and confirmed the work functions correctly
 - **Done Done Done**: The human has stress tested edge cases, error conditions, and real-world usage
+
+## Learning Exercises
+
+See `learnings/Claude.md` for the learning system using Bloom's Taxonomy and scaffolded exercises.
+
+**Schedule:** `learnings/exercises.ics` (1 exercise per day, 11 days)

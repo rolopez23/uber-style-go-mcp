@@ -54,6 +54,18 @@ Use [Beads](https://beads.dev) for issue tracking.
 - **Done Done**: The human has reviewed and confirmed the work functions correctly
 - **Done Done Done**: The human has stress tested edge cases, error conditions, and real-world usage
 
+## Commit Policy
+
+Claude is empowered to commit when code reaches **Done** status.
+
+| Commits | Required Check |
+|---------|----------------|
+| Every commit | Done (agent verified) |
+| Every 5 commits | Done Done (human verified) |
+| Every 25 commits | Done Done Done (human stress tested) |
+
+Claude should proactively commit when tests pass or code runs successfully.
+
 ## Learning Exercises
 
 See `learnings/Claude.md` for the learning system using Bloom's Taxonomy and scaffolded exercises.

@@ -2,6 +2,8 @@
 
 Learnings files capture insights and patterns discovered during implementation.
 
+**Project Context:** MCP server for Uber Go Style Guide validation - capture Go patterns, MCP learnings, and style guide insights.
+
 ## Structure
 
 Capture during and after implementation:

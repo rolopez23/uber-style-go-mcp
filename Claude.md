@@ -1,5 +1,11 @@
 # Claude Code Workflow
 
+This is a **learning repository** for building an MCP server in Go that validates code against the [Uber Go Style Guide](https://github.com/uber-go/guide).
+
+**Tech Stack:**
+- [go-sdk](https://github.com/modelcontextprotocol/go-sdk) - MCP server framework
+- Goal: Push Go code towards Uber style guide compliance
+
 This document describes the structured approach for working with Claude on this project.
 
 ## Workflow Overview
@@ -35,3 +41,15 @@ Use [Beads](https://beads.dev) for issue tracking.
 
 - Top-level plans (`plan/<feature>.md`) link to a Beads **epic**
 - Agent plans (`plan/<feature>/<sub-feature>.md`) link to a Beads **issue**
+
+## Levels of Done
+
+| Level | Name | Requirements |
+|-------|------|--------------|
+| Done | Agent verified | Agent has tested via automated test or running code |
+| Done Done | Human verified | Agent tested + human has verified |
+| Done Done Done | Stress tested | Agent tested + human verified + human stress tested |
+
+- **Done**: The agent (Claude) has validated the work through automated tests or manual execution
+- **Done Done**: The human has reviewed and confirmed the work functions correctly
+- **Done Done Done**: The human has stress tested edge cases, error conditions, and real-world usage

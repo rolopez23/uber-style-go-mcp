@@ -2,6 +2,8 @@
 
 Plan files define implementation strategy with orchestration and agent coordination.
 
+**Project Context:** MCP server for Uber Go Style Guide validation using [go-sdk](https://github.com/modelcontextprotocol/go-sdk).
+
 ## Top-Level Plan (`<feature>.md`)
 
 The main plan focuses on orchestration and coordination:

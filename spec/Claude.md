@@ -2,6 +2,8 @@
 
 Specification files define the "why" and high-level goals for a feature.
 
+**Project Context:** MCP server for Uber Go Style Guide validation.
+
 ## Structure
 
 Each spec file should contain:

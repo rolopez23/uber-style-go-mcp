@@ -8,3 +8,8 @@ package exercises
 //   type SomeStruct struct {
 //       FieldName string `json:"field_name"`
 //   }
+
+
+type EchoInput struct {
+	Message string `json:"message"`
+}

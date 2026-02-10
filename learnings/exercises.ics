@@ -5,102 +5,102 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:Go MCP Learning Exercises
 BEGIN:VEVENT
-DTSTART:20260123
-DTEND:20260124
-DTSTAMP:20260122T000000Z
+DTSTART:20260210
+DTEND:20260211
+DTSTAMP:20260210T000000Z
 UID:go-exercise-1@go-mcp
 SUMMARY:Go Exercise 1: Define Struct with JSON Tags
-DESCRIPTION:File: learnings/go/exercises/echo_types.go\nTest: go test ./learnings/go/exercises/... -run TestEchoInput -v\n\nCreate an EchoInput struct with a Message field and proper JSON tag.
+DESCRIPTION:File: learnings/go/exercises/01-echo-types.go\nTest: go test ./learnings/go/exercises/... -run TestEchoInput -v\n\nCreate an EchoInput struct with a Message field and proper JSON tag.
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-DTSTART:20260124
-DTEND:20260125
-DTSTAMP:20260122T000000Z
+DTSTART:20260212
+DTEND:20260213
+DTSTAMP:20260210T000000Z
 UID:go-exercise-2@go-mcp
 SUMMARY:Go Exercise 2: Implement Simple Function
-DESCRIPTION:File: learnings/go/exercises/greet.go\nTest: go test ./learnings/go/exercises/... -run TestGreet -v\n\nImplement a Greet function that takes a name and returns a greeting.
+DESCRIPTION:File: learnings/go/exercises/02-greet.go\nTest: go test ./learnings/go/exercises/... -run TestGreet -v\n\nImplement a Greet function that takes a name and returns a greeting.
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-DTSTART:20260125
-DTEND:20260126
-DTSTAMP:20260122T000000Z
+DTSTART:20260217
+DTEND:20260218
+DTSTAMP:20260210T000000Z
 UID:go-exercise-3@go-mcp
 SUMMARY:Go Exercise 3: Work with Pointers
-DESCRIPTION:File: learnings/go/exercises/counter.go\nTest: go test ./learnings/go/exercises/... -run TestCounter -v\n\nImplement a Counter struct with Increment and Value methods using pointer receivers.
+DESCRIPTION:File: learnings/go/exercises/03-counter.go\nTest: go test ./learnings/go/exercises/... -run TestCounter -v\n\nImplement a Counter struct with Increment and Value methods using pointer receivers.
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-DTSTART:20260126
-DTEND:20260127
-DTSTAMP:20260122T000000Z
+DTSTART:20260219
+DTEND:20260220
+DTSTAMP:20260210T000000Z
 UID:go-exercise-4@go-mcp
 SUMMARY:Go Exercise 4: Error Handling
-DESCRIPTION:File: learnings/go/exercises/divide.go\nTest: go test ./learnings/go/exercises/... -run TestDivide -v\n\nImplement a Divide function that returns an error for division by zero.
+DESCRIPTION:File: learnings/go/exercises/04-divide.go\nTest: go test ./learnings/go/exercises/... -run TestDivide -v\n\nImplement a Divide function that returns an error for division by zero.
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-DTSTART:20260127
-DTEND:20260128
-DTSTAMP:20260122T000000Z
+DTSTART:20260224
+DTEND:20260225
+DTSTAMP:20260210T000000Z
 UID:mcp-exercise-1@go-mcp
 SUMMARY:MCP Exercise 1: Define a Tool
-DESCRIPTION:File: learnings/mcp/exercises/tool_definition.go\nTest: go test ./learnings/mcp/exercises/... -run TestEchoTool -v\n\nCreate a tool definition for an echo tool.
+DESCRIPTION:File: learnings/mcp/exercises/05-tool-definition.go\nTest: go test ./learnings/mcp/exercises/... -run TestEchoTool -v\n\nCreate a tool definition for an echo tool.
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-DTSTART:20260128
-DTEND:20260129
-DTSTAMP:20260122T000000Z
+DTSTART:20260226
+DTEND:20260227
+DTSTAMP:20260210T000000Z
 UID:mcp-exercise-2@go-mcp
 SUMMARY:MCP Exercise 2: Implement Tool Handler
-DESCRIPTION:File: learnings/mcp/exercises/echo_handler.go\nTest: go test ./learnings/mcp/exercises/... -run TestEcho -v\n\nImplement the Echo tool handler that returns the input message.
+DESCRIPTION:File: learnings/mcp/exercises/06-echo-handler.go\nTest: go test ./learnings/mcp/exercises/... -run TestEcho -v\n\nImplement the Echo tool handler that returns the input message.
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-DTSTART:20260129
-DTEND:20260130
-DTSTAMP:20260122T000000Z
+DTSTART:20260303
+DTEND:20260304
+DTSTAMP:20260210T000000Z
 UID:mcp-exercise-3@go-mcp
 SUMMARY:MCP Exercise 3: Tool with Validation
-DESCRIPTION:File: learnings/mcp/exercises/validated_tool.go\nTest: go test ./learnings/mcp/exercises/... -run TestValidated -v\n\nCreate a tool that validates input and returns an error for invalid data.
+DESCRIPTION:File: learnings/mcp/exercises/07-validated-tool.go\nTest: go test ./learnings/mcp/exercises/... -run TestValidated -v\n\nCreate a tool that validates input and returns an error for invalid data.
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-DTSTART:20260130
-DTEND:20260131
-DTSTAMP:20260122T000000Z
+DTSTART:20260305
+DTEND:20260306
+DTSTAMP:20260210T000000Z
 UID:testing-exercise-1@go-mcp
 SUMMARY:Go Testing Exercise 1: Write Basic Tests
-DESCRIPTION:File: learnings/go-testing/exercises/basic_test.go\nTest: go test ./learnings/go-testing/exercises/... -run TestAdd -v\n\nWrite tests for the Add function.
+DESCRIPTION:File: learnings/go-testing/exercises/08-basic_test.go\nTest: go test ./learnings/go-testing/exercises/... -run TestAdd -v\n\nWrite tests for the Add function.
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-DTSTART:20260131
-DTEND:20260201
-DTSTAMP:20260122T000000Z
+DTSTART:20260310
+DTEND:20260311
+DTSTAMP:20260210T000000Z
 UID:testing-exercise-2@go-mcp
 SUMMARY:Go Testing Exercise 2: Table-Driven Tests
-DESCRIPTION:File: learnings/go-testing/exercises/table_test.go\nTest: go test ./learnings/go-testing/exercises/... -run TestMultiply -v\n\nWrite table-driven tests for the Multiply function.
+DESCRIPTION:File: learnings/go-testing/exercises/09-table_test.go\nTest: go test ./learnings/go-testing/exercises/... -run TestMultiply -v\n\nWrite table-driven tests for the Multiply function.
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-DTSTART:20260201
-DTEND:20260202
-DTSTAMP:20260122T000000Z
+DTSTART:20260312
+DTEND:20260313
+DTSTAMP:20260210T000000Z
 UID:testing-exercise-3@go-mcp
 SUMMARY:Go Testing Exercise 3: Testing Errors
-DESCRIPTION:File: learnings/go-testing/exercises/error_test.go\nTest: go test ./learnings/go-testing/exercises/... -run TestSqrt -v\n\nWrite tests that verify error conditions for Sqrt.
+DESCRIPTION:File: learnings/go-testing/exercises/10-error_test.go\nTest: go test ./learnings/go-testing/exercises/... -run TestSqrt -v\n\nWrite tests that verify error conditions for Sqrt.
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-DTSTART:20260202
-DTEND:20260203
-DTSTAMP:20260122T000000Z
+DTSTART:20260317
+DTEND:20260318
+DTSTAMP:20260210T000000Z
 UID:testing-exercise-4@go-mcp
 SUMMARY:Go Testing Exercise 4: Benchmark Tests
-DESCRIPTION:File: learnings/go-testing/exercises/benchmark_test.go\nTest: go test ./learnings/go-testing/exercises/... -bench=. -v\n\nWrite benchmarks for the Fibonacci function.
+DESCRIPTION:File: learnings/go-testing/exercises/11-benchmark_test.go\nTest: go test ./learnings/go-testing/exercises/... -bench=. -v\n\nWrite benchmarks for the Fibonacci function.
 STATUS:CONFIRMED
 END:VEVENT
 END:VCALENDAR

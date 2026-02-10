@@ -1,10 +1,12 @@
 # Claude Code Workflow
 
-This is a **learning repository** for building an MCP server in Go that validates code against the [Uber Go Style Guide](https://github.com/uber-go/guide).
+## Project Context
+
+This is a **Go + MCP server learning repository**. Primary languages: Go and Markdown. Follow Go conventions (`gofmt`, idiomatic error handling). When creating MCP tools, always validate that response structs include required fields (like the `Content` array) before testing.
 
 **Tech Stack:**
 - [go-sdk](https://github.com/modelcontextprotocol/go-sdk) - MCP server framework
-- Goal: Push Go code towards Uber style guide compliance
+- Goal: Push Go code towards [Uber Go Style Guide](https://github.com/uber-go/guide) compliance
 
 This document describes the structured approach for working with Claude on this project.
 
@@ -54,6 +56,10 @@ Use [Beads](https://beads.dev) for issue tracking.
 - **Done Done**: The human has reviewed and confirmed the work functions correctly
 - **Done Done Done**: The human has stress tested edge cases, error conditions, and real-world usage
 
+## Testing
+
+When running Go tests, always scope to the specific package or exercise directory (e.g., `go test -v ./exercises/01/...`) rather than running `go test ./...` across the entire repo. Only run broader tests if explicitly asked.
+
 ## Commit Policy
 
 Claude is empowered to commit when code reaches **Done** status.
@@ -65,6 +71,10 @@ Claude is empowered to commit when code reaches **Done** status.
 | Every 25 commits | Done Done Done (human stress tested) |
 
 Claude should proactively commit when tests pass or code runs successfully.
+
+## Git Workflow
+
+Use conventional commit messages (e.g., `feat:`, `fix:`, `docs:`, `refactor:`) and keep commits atomic — one logical change per commit. Confirm commit scope with the user if ambiguous.
 
 ## Learning Exercises
 

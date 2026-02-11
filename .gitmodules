@@ -1,0 +1,3 @@
+[submodule "vendor/uber-go-guide"]
+	path = vendor/uber-go-guide
+	url = https://github.com/uber-go/guide.git

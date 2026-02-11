@@ -103,4 +103,40 @@ SUMMARY:Go Testing Exercise 4: Benchmark Tests
 DESCRIPTION:File: learnings/go-testing/exercises/11-benchmark_test.go\nTest: go test ./learnings/go-testing/exercises/... -bench=. -v\n\nWrite benchmarks for the Fibonacci function.
 STATUS:CONFIRMED
 END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260319
+DTEND:20260320
+DTSTAMP:20260210T000000Z
+UID:uber-style-exercise-1@go-mcp
+SUMMARY:Uber Style Guide Exercise 12: Parse Markdown Headings
+DESCRIPTION:File: learnings/uber-style-guide/exercises/12-parse-headings.go\nTest: go test ./learnings/uber-style-guide/exercises/... -run TestParseHeadings -v\n\nExtract ## and ### headings from markdown with level and text.
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260324
+DTEND:20260325
+DTSTAMP:20260210T000000Z
+UID:uber-style-exercise-2@go-mcp
+SUMMARY:Uber Style Guide Exercise 13: Generate Slugs
+DESCRIPTION:File: learnings/uber-style-guide/exercises/13-slugify.go\nTest: go test ./learnings/uber-style-guide/exercises/... -run TestSlugify -v\n\nConvert heading text to URL-safe slugs.
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260326
+DTEND:20260327
+DTSTAMP:20260210T000000Z
+UID:uber-style-exercise-3@go-mcp
+SUMMARY:Uber Style Guide Exercise 14: Keyword Matcher
+DESCRIPTION:File: learnings/uber-style-guide/exercises/14-keyword-matcher.go\nTest: go test ./learnings/uber-style-guide/exercises/... -run TestKeywordMatch -v\n\nMatch keywords in text against rules and return deduplicated labels.
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260331
+DTEND:20260401
+DTSTAMP:20260210T000000Z
+UID:uber-style-exercise-4@go-mcp
+SUMMARY:Uber Style Guide Exercise 15: Closure Handler
+DESCRIPTION:File: learnings/uber-style-guide/exercises/15-closure-handler.go\nTest: go test ./learnings/uber-style-guide/exercises/... -run TestClosureHandler -v\n\nCreate a function returning a closure that captures a dependency.
+STATUS:CONFIRMED
+END:VEVENT
 END:VCALENDAR
